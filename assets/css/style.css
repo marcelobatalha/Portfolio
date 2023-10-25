@@ -114,7 +114,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -257,7 +257,7 @@ h6 {
 .navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
-  width: 25px;
+  width: 40px;
 }
 
 .navbar a:hover,
@@ -416,6 +416,7 @@ section .container {
 
 .services .icon-box {
   text-align: center;
+  border: solid 2px rgb(0, 0, 0);
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -439,12 +440,10 @@ section .container {
   font-size: 28px;
 }
 
-
-
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .services .icon-box h4 a {
@@ -458,8 +457,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: rgb(0, 187, 255);
-  border-color: rgb(0, 187, 255);
+  border: solid 2px  rgb(0, 187, 255);
 }
 
 .services .icon-box:hover .certification i {
@@ -516,12 +514,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(48, 32, 32, 0.6);
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -556,8 +554,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 0px solid #fff;
+  border-left: 0px solid #fff;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -570,8 +568,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 0px solid #fff;
+  border-right: 0px solid #fff;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
